@@ -1,13 +1,13 @@
 [package]
-name = "uart"
+name = "replace-me"
 version = "0.1.0"
-authors = ["Henrik Böving <hargonix@gmail.com>"]
+authors = ["Evan Helbig <evan@evanhelbig.com>"]
 edition = "2018"
 
 [dependencies]
 cortex-m = "0.7.3"
 cortex-m-rt = "0.7.0"
-rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+rtt-target = "0.4"
 panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
 nb = "1.0.0"
 heapless = "0.7.10"
